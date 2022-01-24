@@ -1,0 +1,11 @@
+<form *ngIf="showAddAutomovile" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="Text">Plate</label>
+        <input type="text" name="plate" [(ngModel)]="plate" id="plate" placeholder="Add Plate ID">
+    </div>
+    <div class="form-control">
+        <label for="color">Color</label>
+        <input type="text" name="color" [(ngModel)]="color" id="color" placeholder="Add Color">
+    </div>
+    <input type="submit" value="Save Automovile" class="btn btn-block" />
+</form>

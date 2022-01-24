@@ -1,0 +1,17 @@
+.auto {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .auto.reminder {
+    border-left: 5px solid green;
+  }
+  
+  .auto h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

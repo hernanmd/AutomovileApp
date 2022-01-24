@@ -1,0 +1,7 @@
+<app-add-auto (onAddAutomovile)="addAutomovile($event)"></app-add-auto>
+<app-auto-item 
+    *ngFor="let auto of autos" 
+    [auto]="auto"
+    (onDeleteAuto)="deleteAuto(auto)"
+    >
+</app-auto-item>

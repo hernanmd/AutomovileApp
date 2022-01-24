@@ -1,0 +1,11 @@
+<div class="auto">
+    <h3>
+        {{auto.plate}} 
+        <fa-icon 
+            (click)="onDelete(auto)" 
+            [ngStyle]="{'color': 'red'}" 
+            [icon]="faTimes">
+        </fa-icon>
+    </h3>
+    <p>{{auto.color}}</p>
+</div>

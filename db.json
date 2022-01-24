@@ -1,0 +1,19 @@
+{
+  "autos": [
+    {
+      "id": 1,
+      "plate": 3211,
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "plate": 44452,
+      "color": "White"
+    },
+    {
+      "id": 3,
+      "plate": 51123,
+      "color": "Cyan"
+    }
+  ]
+}
